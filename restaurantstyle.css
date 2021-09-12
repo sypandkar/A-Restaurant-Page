@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Baloo Chettan 2", cursive;
+  line-height: 1.6;
+}
+/*====================== starting of header =============== */
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("landpage.jpg");
+  background-size: cover;
+}
+.hero {
+  text-align: center;
+  padding-top: 15%;
+  width: 100%;
+}
+.booking {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 5px solid rgba(78, 4, 4, 0.733);
+  border-radius: 25px;
+  padding: 10px 15px;
+  color: whitesmoke;
+}
+.booking:hover {
+  font-size: 28px;
+  background-color: rgba(78, 4, 4, 0.733);
+  color: white;
+}
+/*====================== end of header =============== */
+/* about us starts */
+.title-text {
+  text-align: center;
+  font-size: 40px;
+  color: orange;
+}
+/* about us ends */
+/* ================ Starting container=========== */
+.container {
+  margin: 10px 15px;
+  text-align: center;
+}
+.about {
+  margin: 5px;
+}
+/* .about-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}  flex propertiesare given in media queries*/
+.about-icon {
+  color: orange;
+  font-size: 60px;
+}
+.about-subtitle {
+  color: orange;
+  font-size: 30px;
+}
+.about-info {
+  color: black;
+  background-color: #ebebe0;
+  border-radius: 7px;
+  font-weight: lighter;
+}
+
+.about-icon:hover,
+.about-subtitle:hover {
+  transition: transform 2s ease, color 2s ease;
+  transform: translateY(-20px);
+  color: orangered;
+  cursor: pointer;
+}
+
+/* ================End of container============== */
+
+/* ================starting of menu============== */
+.menu {
+  text-align: center;
+}
+.menu-img {
+  background-image: url("our menu img.jpg");
+  background-size: cover;
+  height: 800px;
+  background-repeat: no-repeat;
+  line-height: 1.5;
+}
+.textdetails {
+  background-color: orange;
+  background-size: cover;
+  height: 700px;
+}
+.textdetails .our-menu {
+  font-size: 50px;
+  padding-top: 10%;
+}
+.textdetails .exp {
+  font-size: 25px;
+}
+.textdetails .explore {
+  text-decoration: none;
+  background-color: palegreen;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 25px;
+}
+.textdetails .explore:hover {
+  background-color: white;
+  color: rgba(78, 4, 4, 0.733);
+  border: 2px solid rgba(78, 4, 4, 0.733);
+}
+/* ================End of menu============== */
+/* ===========start of social media icon ========  */
+.social-links {
+  height: 150px;
+  text-align: center;
+}
+.social-links a {
+  display: inline-block;
+  padding: 10px;
+  font-size: 50px;
+  transition: transform 2s ease, color 2s ease;
+}
+.social-links a:hover {
+  transform: translateY(-20px);
+}
+
+.facebook {
+  color: blue;
+  margin-right: 20px;
+}
+.instagram {
+  color: red;
+  margin-right: 20px;
+}
+.twitter {
+  color: skyblue;
+  margin-right: 20px;
+}
+.googleplus {
+  color: orangered;
+  margin-right: 20px;
+}
+/* ===========end of social media icon ========  */
+/* ==============start of dishesh ========  */
+.dishesh {
+  margin: 0;
+  padding: 0;
+  /* if we set margin:0 and padding:0 then the icons will not go outside the image specially when we zoom in and out on browser screen  */
+  background-image: url("dish2.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+.dishtypes {
+  height: 70vh;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 10px;
+  /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;  these flex properties are given by media queries*/
+}
+.veg-dishesh {
+  font-size: 20px;
+  color: orange;
+  text-align: center;
+}
+.dishicon {
+  font-size: 50px;
+}
+.dish-subtitle {
+  font-size: 20px;
+}
+.dish-details {
+  font-size: 30px;
+}
+.dishicon:hover {
+  transition: transform 2s ease, color 2s ease;
+  transform: translateY(-20px);
+  color: orangered;
+}
+/* ==============End of dishesh ========  */
+/* =========gallery starts here ========= */
+.gallary {
+  margin: 5px 20%;
+  padding: 0;
+}
+.offers {
+  color: orange;
+  font-size: 40px;
+  border: 3px solid orange;
+  border-radius: 15px;
+  margin: 20px;
+  text-align: center;
+  /* don't give max-width property for bringing heading (todays special offer) in center it will be done by margin: 5px 20%; given in  .gallary  */
+}
+.veg-biryani {
+  background-image: url("vegbiryani.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  height: 80vh;
+}
+.soup {
+  background-image: url("soup.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  height: 80vh;
+}
+.mix-veg {
+  background-image: url("mixveg.jpg");
+  background-size: cover;
+  background-position: cover;
+  border-radius: 20px;
+  height: 80vh;
+}
+.govindas-thali {
+  background-image: url("south-indian.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  height: 80vh;
+}
+.disk {
+  text-align: center;
+  padding-top: 30%;
+  color: white;
+  font-size: 30px;
+}
+.veg-biryani,
+.soup,
+.mix-veg,
+.govindas-thali{
+  margin: 10px;
+}
+
+.disk:hover {
+  transition: 2s ease-in-out , color 2s ease-in-out;
+  font-size: 50px;
+  transform: translate(-10px);
+}
+.veg-biryani:hover,
+.soup:hover,
+.govindas-thali:hover,
+.mix-veg:hover {
+  opacity: 0.7;
+  border: 5px solid orange;
+}
+/* =========gallery ends here ========= */
+
+/* ===========media queries ============ */
+@media screen and (min-width: 576px) {
+  .about-top {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 576px) {
+  .dishtypes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+/* ===========media queries ============ */
